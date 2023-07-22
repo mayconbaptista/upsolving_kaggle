@@ -1,12 +1,13 @@
 ,PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+18,910,3,"Ilmakangas, Miss. Ida Livija",female,27.0,1,0,STON/O2. 3101270,7.925,,S
 21,913,3,"Olsen, Master. Artur Karl",male,9.0,0,1,C 17368,3.1708,,S
 36,928,3,"Roth, Miss. Sarah A",female,,0,0,342712,8.05,,S
 37,929,3,"Cacic, Miss. Manda",female,21.0,0,0,315087,8.6625,,S
 64,956,1,"Ryerson, Master. John Borie",male,13.0,2,2,PC 17608,262.375,B57 B59 B63 B66,C
 72,964,3,"Nieminen, Miss. Manta Josefina",female,29.0,0,0,3101297,7.925,,S
 80,972,3,"Boulos, Master. Akar",male,6.0,1,1,2678,15.2458,,C
+87,979,3,"Badman, Miss. Emily Louisa",female,18.0,0,0,A/4 31416,8.05,,S
 89,981,2,"Wells, Master. Ralph Lester",male,2.0,1,1,29103,23.0,,S
-131,1023,1,"Gracie, Col. Archibald IV",male,53.0,0,0,113780,28.5,C51,C
 132,1024,3,"Lefebre, Mrs. Frank (Frances)",female,,0,4,4133,25.4667,,S
 138,1030,3,"Drapkin, Miss. Jennie",female,23.0,0,0,SOTON/OQ 392083,8.05,,S
 140,1032,3,"Goodwin, Miss. Jessie Allis",female,10.0,5,2,CA 2144,46.9,,S
@@ -25,8 +26,8 @@
 293,1185,1,"Dodge, Dr. Washington",male,53.0,1,1,33638,81.8583,A34,S
 307,1199,3,"Aks, Master. Philip Frank",male,0.83,0,1,392091,9.35,,S
 339,1231,3,"Betros, Master. Seman",male,,0,0,2622,7.2292,,C
+344,1236,3,"van Billiard, Master. James William",male,,1,1,A/5. 851,14.5,,S
 365,1257,3,"Sage, Mrs. John (Annie Bullen)",female,,1,9,CA. 2343,69.55,,S
 376,1268,3,"Kink, Miss. Maria",female,22.0,2,0,315152,8.6625,,S
 392,1284,3,"Abbott, Master. Eugene Joseph",male,13.0,0,2,C.A. 2673,20.25,,S
-412,1304,3,"Henriksson, Miss. Jenny Lovisa",female,28.0,0,0,347086,7.775,,S
 417,1309,3,"Peter, Master. Michael J",male,,1,1,2668,22.3583,,C

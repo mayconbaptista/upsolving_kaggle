@@ -161,10 +161,14 @@ cython_debug/
 
 # titanic
 /titanic/erros.csv
+/titanic/*.txt
+/titanic/*.md
+/titanic/temp.*
 
 
-# my
-*.txt
+# all
 *.odt
 *.html
-teste.*
+./*.ipynb
+./*.tecnicas.txt
+./*.preprocessamento.txt

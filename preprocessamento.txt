@@ -1,0 +1,25 @@
+Existem várias técnicas de pré-processamento de dados que podem ser aplicadas a diferentes tipos de dados para prepará-los para análise ou modelagem de machine learning. Abaixo estão algumas das principais técnicas e os tipos de dados para os quais elas são indicadas:
+
+1. **Padronização (Standardization):** Essa técnica é usada para redimensionar os dados de forma que eles tenham média zero e desvio padrão igual a um. É mais adequada para variáveis numéricas contínuas, especialmente quando os modelos de machine learning são sensíveis à escala dos dados, como regressão linear e k-Nearest Neighbors.
+
+2. **Normalização (Normalization):** A normalização é usada para redimensionar os dados para um intervalo específico, geralmente [0, 1]. É indicada para variáveis numéricas contínuas que possuem intervalos significativamente diferentes, permitindo que todas as variáveis estejam na mesma escala. É amplamente utilizada em algoritmos que usam distâncias euclidianas, como o k-Nearest Neighbors.
+
+3. **MinMaxScaler:** É uma técnica que realiza a normalização dos dados em um intervalo específico, como [0, 1] ou [-1, 1]. Pode ser aplicada em variáveis numéricas contínuas, tanto para dados discretos como para dados contínuos.
+
+4. **RobustScaler:** Essa técnica é semelhante ao `StandardScaler`, mas usa a mediana e o intervalo interquartil (IQR) para escalonar os dados, tornando-a mais robusta a outliers. É indicada para variáveis numéricas contínuas que possuem outliers significativos.
+
+5. **One-Hot Encoding:** Usada para transformar variáveis categóricas em representações numéricas, criando variáveis binárias (0 ou 1) para cada categoria. É indicada para variáveis categóricas com poucos valores únicos.
+
+6. **Label Encoding:** Outra técnica para codificar variáveis categóricas, transformando-as em valores inteiros. É mais indicada para variáveis categóricas com uma ordem natural.
+
+7. **Dummy Encoding:** Similar ao One-Hot Encoding, mas evita a "armadilha da multicolinearidade" criando n-1 variáveis binárias para n categorias. É indicado para variáveis categóricas com muitos valores únicos e evita a introdução de alta correlação entre as variáveis dummy.
+
+8. **Feature Scaling (Escalonamento de Recursos):** É uma abordagem mais geral que inclui a padronização, normalização e outras técnicas de redimensionamento de recursos. É usada para ajustar as variáveis em uma escala específica para melhorar o desempenho dos modelos.
+
+9. **Tratamento de Outliers:** Diferentes técnicas podem ser usadas para lidar com outliers, como remoção, substituição por valores estatísticos ou transformação logarítmica. Isso é importante quando os outliers podem afetar negativamente a performance do modelo.
+
+10. **Remoção de Dados Duplicados:** Usada para eliminar linhas duplicadas em um DataFrame, garantindo que cada linha seja única.
+
+11. **Tratamento de Dados Ausentes (Missing Data Handling):** Existem várias técnicas para lidar com valores ausentes, incluindo remoção de linhas ou colunas com dados ausentes, preenchimento por média, mediana ou valor mais frequente, e até mesmo técnicas mais avançadas, como imputação com modelos preditivos.
+
+Essas são apenas algumas das principais técnicas de pré-processamento de dados. A escolha das técnicas adequadas dependerá do tipo de dados, do problema específico e dos modelos de machine learning que você pretende utilizar. É sempre importante realizar uma análise cuidadosa dos dados e aplicar as técnicas mais apropriadas para garantir a qualidade e a precisão dos resultados.

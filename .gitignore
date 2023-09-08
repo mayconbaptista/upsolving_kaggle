@@ -165,8 +165,11 @@ cython_debug/
 /titanic/*.md
 /titanic/temp.*
 
+# pet finder
+petfinder-adoption-prediction/
 
 # all
+*.csv
 *.odt
 *.html
 ./*.ipynb
